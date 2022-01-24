@@ -1,0 +1,93 @@
+/*#C6A385;*/
+
+header{
+	position: fixed;
+	top: 0;left: 0;right: 0;
+	z-index: 100;
+	display: flex;
+	background: #E7CDBA;
+	justify-content: space-between;
+	align-items: center;
+	align-content: center;
+	padding: 1rem 4%;
+}
+
+header img{
+	height: 90px;
+	width: 140px;
+	object-fit: contain;
+	
+}
+
+nav a{
+	font-size: 15px;
+	color: #fff;
+	margin-left: 2rem;
+	font-weight: 500;
+}
+
+nav a:hover{
+	border-bottom: 0.3rem solid #fff;
+	transition: .2s linear;
+	padding-bottom: 0.5rem;
+}
+
+#menu{
+	display: none;
+	color: #fff;
+	background: #C6A385;
+	padding: 10px;
+	font-size: 15px;
+	border-radius: 6px;
+	cursor: pointer;
+}
+
+@media(max-width: 991px){
+	html{
+		font-size: 55%;
+	}
+
+	header{
+		padding: 1rem;
+	}
+}
+
+@media(max-width: 768px){
+	#menu{
+		display: initial;
+	}
+
+	nav{
+		position: absolute;
+		top: 100%;
+		left: 0;
+		right: 0;
+		clip-path: polygon(0 0, 100% 0, 100% 0,0 0);
+		background: #fff;
+
+	}
+
+	nav.active{
+		clip-path: polygon(0 0, 100% 0,100% 100%,0% 100%);
+	}
+	nav a{
+		display: block;
+		color: #C6A385;
+		margin: 10px;
+		padding: 10px;
+		border: 2px solid #C6A385;
+		border-radius: 6px;
+		background: #f8f1ec;
+	}
+
+	.btn{
+		width: 80px;
+	}
+}
+
+@media(max-width: 400px){
+	html{
+		font-size: 50%;
+	}
+
+}

@@ -1,0 +1,465 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Big Brother</title>
+
+	<!-- Importable CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css"/>
+	<!-- Custome CSS -->
+	<link rel="stylesheet" type="text/css" href="../css/style.css">
+	<link rel="stylesheet" type="text/css" href="../css/header.css">
+	<link rel="stylesheet" type="text/css" href="../css/banner.css">
+	<link rel="stylesheet" type="text/css" href="../css/products.css">
+	<link rel="stylesheet" type="text/css" href="../css/category.css">
+	<link rel="stylesheet" type="text/css" href="../css/testimonials.css">
+	<link rel="stylesheet" type="text/css" href="../css/contact.css">
+	<link rel="stylesheet" type="text/css" href="../css/footer.css">
+	<link rel="stylesheet" type="text/css" href="../css/login.css">
+
+</head>
+<body>
+
+<!-- Header Start  -->
+<header>
+	<a href="#">
+		<img src="../img/logo/logo_1.png">
+	</a>
+	<nav class="navbar">
+		<a href="#">Home</a>
+		<a href="#prodcuts">Product</a>
+		<a href="#category">Category</a>
+		<a href="#testmonials">Testmonials</a>
+		<a href="#contact">Contact</a>
+		<a href="#" class="btn" onclick="document.getElementById('id01').style.display='block'" style="width:auto;">Login</a>
+
+	</nav>
+	<div class="fa fa-bars" aria-hidden="true" id="menu"></div>
+</header>
+<!-- Header End  -->
+
+
+<!-- Banner Start -->
+<section class="banner_container">
+	<div class="banner_content">
+		<h3>Discover<br>
+			best furniture<br>
+			for your house
+		</h3>
+
+		<p>we have 500+ more center tables and our customers trust on our good services, quick response and best quality prodcuts.
+		</p>
+
+		<a href="" class="btn">View More</a>
+	</div>
+
+	<div class="banner_img">
+		<img src="../img/banner/banner_1.png">
+	</div>
+</section>
+<!-- Banner End -->
+
+<!-- Our Product Start -->
+<section class="product_container" id="prodcuts">
+	<div class="product_content">
+		<div class="title">
+			<h3>Our  Product</h3>
+			<p>We have 5k more products and you buy anything what you want.</p>
+			<a href="" class="our_product_btn">View More</a>
+		</div>
+
+		<div class="swiper products_slider">
+			<div class="swiper-wrapper">
+				
+				<!-- 1st -->
+				<div class="swiper-slide box">
+					<img src="../img/product/product_7.png" alt="product_1">
+
+					<h3>Spiner Shape</h3>
+					<div class="product_Details">
+						<p>Three stand with spiner top shape morden center table used in office,cafe etc.</p>
+						<label><i class="fa fa-inr" aria-hidden="true"></i> 2,999.00</label>
+					</div>	
+
+					<div class="hover_effect">
+						<i id="btn_full" class="fa fa-heart" aria-hidden="true"></i>
+						<i id="btn_heart" onclick="add_wishlist();" class="fa fa-heart-o" aria-hidden="true"></i>
+						<i id="btn_cart" class="fa fa-shopping-cart" aria-hidden="true"></i>
+						<i id="btn_eye" class="fa fa-eye" aria-hidden="true"></i>
+					</div>				
+				</div>
+
+
+				<!-- 2nd -->
+				<div class="swiper-slide box">
+					<img src="../img/product/product_3.png" alt="product_1">
+
+					<h3>Two Drawer</h3>
+					<div class="product_Details">
+						<p>Coffee and white color mordern  looking comibition with two slideing drawers. </p>
+						<label><i class="fa fa-inr" aria-hidden="true"></i> 4,899.00</label>
+					</div>
+					<div class="hover_effect">
+						<i id="btn_heart" class="fa fa-heart-o" aria-hidden="true"></i>
+						<i id="btn_cart" class="fa fa-shopping-cart" aria-hidden="true"></i>
+						<i id="btn_eye" class="fa fa-eye" aria-hidden="true"></i>
+					</div>			
+				</div>
+
+
+				<!-- 3rd -->
+				<div class="swiper-slide box">
+					<img src="../img/product/product_4.png" alt="product_1">
+
+					<h3>Round Shape</h3>
+					<div class="product_Details">
+						<p>Round shape with full marble top with three center table and all are diffrent shap.</p>
+						<label><i class="fa fa-inr" aria-hidden="true"></i> 5,999.00</label>
+					</div>
+					<div class="hover_effect">
+						<i id="btn_heart" class="fa fa-heart-o" aria-hidden="true"></i>
+						<i id="btn_cart" class="fa fa-shopping-cart" aria-hidden="true"></i>
+						<i id="btn_eye" class="fa fa-eye" aria-hidden="true"></i>
+					</div>	
+				</div>
+
+
+				<!-- 4th -->
+				<div class="swiper-slide box">
+					<img src="../img/product/product_5.png" alt="product_1">
+
+					<h3>Polygon Shape</h3>
+					<div class="product_Details">
+						<p>Polygon shape with full Wooden top with three center table and all are diffrent shap. </p>
+						<label><i class="fa fa-inr" aria-hidden="true"></i> 6,999.00</label>
+					</div>
+					<div class="hover_effect">
+						<i id="btn_heart" class="fa fa-heart-o" aria-hidden="true"></i>
+						<i id="btn_cart" class="fa fa-shopping-cart" aria-hidden="true"></i>
+						<i id="btn_eye" class="fa fa-eye" aria-hidden="true"></i>
+					</div>	
+				</div>
+
+
+				<!-- 5th -->
+				<div class="swiper-slide box">
+					<img src="../img/product/product_6.png" alt="product_1">
+
+					<h3>Triangle shape</h3>
+					<div class="product_Details">
+						<p>Triangle shape with full Wooden top with two center table and both shap are diffrent.</p>
+						<label><i class="fa fa-inr" aria-hidden="true"></i>  3,999.00</label>
+					</div>
+					<div class="hover_effect">
+						<i id="btn_heart" class="fa fa-heart-o" aria-hidden="true"></i>
+						<i id="btn_cart" class="fa fa-shopping-cart" aria-hidden="true"></i>
+						<i id="btn_eye" class="fa fa-eye" aria-hidden="true"></i>
+					</div>	
+				</div>
+
+				<!-- 6th -->
+				<div class="swiper-slide box">
+					<img src="../img/product/product_2.png" alt="product_1">
+
+					<h3>Anti Round Shape</h3>
+					<div class="product_Details">
+						<p>Anti Round shape with Febtric top with two center table and stand shapes are rounded.</p>
+						<label> <i class="fa fa-inr" aria-hidden="true"></i> 1,599.00</label>
+					</div>
+					<div class="hover_effect">
+						<i id="btn_heart" class="fa fa-heart-o" aria-hidden="true"></i>
+						<i id="btn_cart" class="fa fa-shopping-cart" aria-hidden="true"></i>
+						<i id="btn_eye" class="fa fa-eye" aria-hidden="true"></i>
+					</div>	
+				</div>
+				</div>
+
+			</div>
+		</div>
+
+	</div>
+</section>
+<!-- Our Product End -->
+
+
+<!-- Category Start -->
+<section class="product_container" id="category">
+	<div class="product_content">
+		<div class="title">
+			<h3>Our  Categories</h3>
+			<p>We have 5k more products and you buy anything what you want.</p>
+			<a href="" class="our_product_btn">View More</a>
+		</div>
+
+		<div class="swiper products_slider">
+			<div class="category_list">
+				<ul>
+					<li data-filter="all" class="list active">All</li>
+					<li data-filter="table" class="list">Table</li>
+					<li data-filter="chair" class="list">Chair</li>
+					<li data-filter="wardrobe" class="list">Wardrobe</li>
+					<li data-filter="drawer" class="list">Drawer</li>
+					<li data-filter="mirror" class="list">Mirror</li>
+				</ul>
+			</div>
+
+
+			<div class="swiper-wrapper">
+				
+					<!-- 1st -->
+					<div class="swiper-slide category_box" data-item="table">
+						<img src="../img/product/product_7.png" alt="product_1">
+
+						<h3>Spiner Shape</h3>
+						<div class="product_Details">
+							<p>Three stand with spiner top shape morden center table used in office,cafe etc.</p>
+							<label><i class="fa fa-inr" aria-hidden="true"></i> 2,999.00</label>
+						</div>	
+
+						<div class="hover_effect">
+							<i id="btn_full" class="fa fa-heart" aria-hidden="true"></i>
+							<i id="btn_heart" class="fa fa-heart-o" aria-hidden="true"></i>
+							<i id="btn_cart" class="fa fa-shopping-cart" aria-hidden="true"></i>
+							<i id="btn_eye" class="fa fa-eye" aria-hidden="true"></i>
+						</div>				
+					</div>
+
+
+					<!-- 2nd -->
+					<div class="swiper-slide category_box" data-item="chair">
+						<img src="../img/product/product_3.png" alt="product_1">
+
+						<h3>Two Drawer</h3>
+						<div class="product_Details">
+							<p>Coffee and white color mordern  looking comibition with two slideing drawers. </p>
+							<label><i class="fa fa-inr" aria-hidden="true"></i> 4,899.00</label>
+						</div>
+						<div class="hover_effect">
+							<i id="btn_heart" class="fa fa-heart-o" aria-hidden="true"></i>
+							<i id="btn_cart" class="fa fa-shopping-cart" aria-hidden="true"></i>
+							<i id="btn_eye" class="fa fa-eye" aria-hidden="true"></i>
+						</div>			
+					</div>
+
+
+					<!-- 3rd -->
+					<div class="swiper-slide category_box" data-item="wardrobe">
+						<img src="../img/product/product_4.png" alt="product_1">
+
+						<h3>Round Shape</h3>
+						<div class="product_Details">
+							<p>Round shape with full marble top with three center table and all are diffrent shap.</p>
+							<label><i class="fa fa-inr" aria-hidden="true"></i> 5,999.00</label>
+						</div>
+						<div class="hover_effect">
+							<i id="btn_heart" class="fa fa-heart-o" aria-hidden="true"></i>
+							<i id="btn_cart" class="fa fa-shopping-cart" aria-hidden="true"></i>
+							<i id="btn_eye" class="fa fa-eye" aria-hidden="true"></i>
+						</div>	
+					</div>
+
+
+					<!-- 4th -->
+					<div class="swiper-slide category_box" data-item="drawer">
+						<img src="../img/product/product_5.png" alt="product_1">
+
+						<h3>Polygon Shape</h3>
+						<div class="product_Details">
+							<p>Polygon shape with full Wooden top with three center table and all are diffrent shap. </p>
+							<label><i class="fa fa-inr" aria-hidden="true"></i> 6,999.00</label>
+						</div>
+						<div class="hover_effect">
+							<i id="btn_heart" class="fa fa-heart-o" aria-hidden="true"></i>
+							<i id="btn_cart" class="fa fa-shopping-cart" aria-hidden="true"></i>
+							<i id="btn_eye" class="fa fa-eye" aria-hidden="true"></i>
+						</div>	
+					</div>
+
+
+					<!-- 5th -->
+					<div class="swiper-slide category_box" data-item="mirror">
+						<img src="../img/product/product_6.png" alt="product_1">
+
+						<h3>Triangle shape</h3>
+						<div class="product_Details">
+							<p>Triangle shape with full Wooden top with two center table and both shap are diffrent.</p>
+							<label><i class="fa fa-inr" aria-hidden="true"></i>  3,999.00</label>
+						</div>
+						<div class="hover_effect">
+							<i id="btn_heart" class="fa fa-heart-o" aria-hidden="true"></i>
+							<i id="btn_cart" class="fa fa-shopping-cart" aria-hidden="true"></i>
+							<i id="btn_eye" class="fa fa-eye" aria-hidden="true"></i>
+						</div>	
+					</div>
+
+					<!-- 6th -->
+					<div class="swiper-slide category_box" data-item="table">
+						<img src="../img/product/product_2.png" alt="product_1">
+
+						<h3>Anti Round Shape</h3>
+						<div class="product_Details">
+							<p>Anti Round shape with Febtric top with two center table and stand shapes are rounded.</p>
+							<label> <i class="fa fa-inr" aria-hidden="true"></i> 1,599.00</label>
+						</div>
+						<div class="hover_effect">
+							<i id="btn_heart" class="fa fa-heart-o" aria-hidden="true"></i>
+							<i id="btn_cart" class="fa fa-shopping-cart" aria-hidden="true"></i>
+							<i id="btn_eye" class="fa fa-eye" aria-hidden="true"></i>
+						</div>	
+					</div>
+				</div>
+
+			</div>
+		</div>
+
+	</div>
+</section>
+<!-- Category End -->
+
+
+<!-- Review Start -->
+<section class="testmonials_container" id="testmonials">
+	<div class="testmonials_img_content">
+		<img src="../img/testmonials/testimonials.png" alt="testmonials_img">
+	</div>
+
+	<div class="testmonials_review_content">
+		<h3>Review</h3>
+		<p>Why customer choose <b>Big Brother</b> for make their interior look better.</p>
+
+		<div class="swiper review_slider">
+			<div class="swiper-wrapper">
+				<div class="swiper-slide review_box">
+					<i class="fa fa-quote-left" aria-hidden="true"></i>
+					<p>Big Brother is one of the best furniture shop for discover the best furniture of my house, here is one my favourite marketplace i ever met.</p>
+
+					<label><i class="fa fa-dot-circle-o" aria-hidden="true"></i> Ajay Gajjar</label>
+				</div>
+
+				<div class="swiper-slide review_box">
+					<i class="fa fa-quote-left" aria-hidden="true"></i>
+					<p>Big Brother is one of the best furniture shop for discover the best furniture of my house, here is one my favourite marketplace i ever met.</p>
+
+					<label><i class="fa fa-dot-circle-o" aria-hidden="true"></i> Rohit Sharma</label>
+				</div>
+
+				<div class="swiper-slide review_box">
+					<i class="fa fa-quote-left" aria-hidden="true"></i>
+					<p>Big Brother is one of the best furniture shop for discover the best furniture of my house, here is one my favourite marketplace i ever met.</p>
+
+					<label><i class="fa fa-dot-circle-o" aria-hidden="true"></i> Michel Piterson</label>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+<!-- Review End -->
+
+<!-- Contact Start -->
+<section class="contact_container" id="contact">
+	<h3 class="heading">Contact Us</h3>
+	<p> Get in touch with fill this form and follow on social media !</p>
+
+	<form>
+		<div class="inputbx">
+			<input type="text" placeholder="First Name *" name="first name" onkeypress="return (event.charCode > 64 && event.charCode < 91) || (event.charCode > 96 && event.charCode < 123) || (event.charCode==32)" required>
+			<input type="text" placeholder="Last Name *" name="last name" onkeypress="return (event.charCode > 64 && event.charCode < 91) || (event.charCode > 96 && event.charCode < 123) || (event.charCode==32)" required>
+		</div>
+
+		<div class="inputbx">
+			<input style="text-transform: none;"  type="email" placeholder="Email *" name="first name" required>
+			<input type="text" placeholder="Phone Number *" name="last name" maxlength="10" minlength="1" onkeypress="return isNumberKey(event)" required>
+		</div>
+	
+		<textarea name="" id="" cols="30" rows="5" placeholder="Message"></textarea>		
+
+		<input type="submit" name="" class="btn" value="Submit">
+	</form>
+</section>
+<!-- Contact End -->
+
+
+<!-- Footer Start -->
+<section class="footer_container" id="footer">
+	<div class="about">
+		<img src="../img/logo/logo_1.png" alt="Footer_Logo">
+
+		<p>Big Brother is one of the best option for your interior design. We have 50+ more morden, stylish center table design that make your house, office's look are very royal. Big Brother provide 24 X 7 service and also give you to free home delivery.  </p>
+	</div>
+
+	<div class="menu_links">
+		<h3>Menu</h3>
+		<a href="#"><i class="fa fa-arrow-right" aria-hidden="true"></i> Home</a>
+		<a href="#prodcuts"><i class="fa fa-arrow-right" aria-hidden="true"></i> Product</a>
+		<a href="#category"><i class="fa fa-arrow-right" aria-hidden="true"></i> Category</a>
+		<a href="#testmonials"><i class="fa fa-arrow-right" aria-hidden="true"></i> Review</a>
+	</div>
+
+	<div class="category_links">
+		<h3>Categories</h3>
+		<a href="#"><i class="fa fa-arrow-right" aria-hidden="true"></i> Table</a>
+		<a href="#"><i class="fa fa-arrow-right" aria-hidden="true"></i> Chair</a>
+		<a href="#"><i class="fa fa-arrow-right" aria-hidden="true"></i> Drawer</a>
+		<a href="#"><i class="fa fa-arrow-right" aria-hidden="true"></i> Mirror</a>
+	</div>
+
+	<div class="social_links">
+		<h3>Follow us</h3>
+		<a href="#"><i class="fa fa-arrow-right" aria-hidden="true"></i> Facebook</a>
+		<a href="#"><i class="fa fa-arrow-right" aria-hidden="true"></i> Instagram</a>
+		<a href="#"><i class="fa fa-arrow-right" aria-hidden="true"></i> Likndin</a>
+		<a href="#"><i class="fa fa-arrow-right" aria-hidden="true"></i> Snapchat</a>
+	</div>
+</section>
+<!-- Footer End -->
+
+<!-- Login Start -->
+<div id="id01" class="modal">
+  
+  <form class="modal-content animate">
+    <div class="imgcontainer">
+      <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
+      <img src="../img/logo/logo_1.png" alt="Avatar" class="avatar">
+    </div>
+
+    <div class="container">
+    	<div>
+      		<label class="login_label" for="uname"><b>Username</b></label><br>
+      		<input type="text" placeholder="Enter Username" name="uname" onkeypress="return (event.charCode > 64 && event.charCode < 91) || (event.charCode > 96 && event.charCode < 123) || (event.charCode==32)" required>
+		</div>
+
+		<div>
+	      <label class="login_label" for="psw"><b>Password</b></label><br>
+	      <input type="password" placeholder="Enter Password" name="psw" required>
+        </div>
+      <button type="submit">Login</button>
+      <label>
+        <input type="checkbox" checked="checked" name="remember"> Remember me
+      </label>
+    </div>
+  </form>
+</div>
+<!-- Login End -->
+
+<div onclick="topFunction()" id="up_btn">
+	<i class="fa fa-arrow-up" aria-hidden="true"></i>
+</div>
+
+
+<!-- Importable JS -->
+<script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+
+<!-- Custome JS File -->
+<script type="text/javascript" src="../js/navbar.js"></script>
+<script type="text/javascript" src="../js/product_slider.js"></script>
+<script type="text/javascript" src="../js/product_action.js"></script>
+<script type="text/javascript" src="../js/product_filter.js"></script>
+<script type="text/javascript" src="../js/review_slider.js"></script>
+<script type="text/javascript" src="../js/mobile_number.js"></script>
+<script type="text/javascript" src="../js/model.js"></script>
+<script type="text/javascript" src="../js/scroll_top.js"></script>
+
+
+</body>
+</html>
